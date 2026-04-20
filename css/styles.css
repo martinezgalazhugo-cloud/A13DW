@@ -394,3 +394,38 @@ footer #section-socialMedia .container .instagram:hover {
     background: #3f729b;
 }
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px) {
+    header .menu {
+        text-align: center;
+    }
+
+    main #section-jobs .container-jobs .job {
+        width: 46%;
+    }
+
+    main #section-skills .container-skills .skill {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .container-text ,.text .name {
+        font-size: 35px;
+    }
+
+    header .container-text .text .profession {
+        font-size: 18px;
+    }
+
+    footer #section-socialMedia .container {
+        flex-wrap: wrap;
+    }
+
+    footer #section-socialMedia .container a {
+        padding: 20px;
+    }
+}
+
+
